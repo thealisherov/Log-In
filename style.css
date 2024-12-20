@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  
+  header {
+    background-color: rgba(252, 246, 246, 0.781);
+    width: 1440px;
+    padding-left: auto;
+    padding-right: auto;
+  }
+  
+  nav {
+    width: 80%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  #navigation {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav p {
+    font-size: 35px;
+    padding-left: 20px;
+    font-family: Georgia;
+  }
+  nav p span {
+    color: #fff;
+    background-color: green;
+    border-radius: 10%;
+  }
+  
+  nav div a {
+    text-decoration: none;
+    color: green;
+    font-size: 30px;
+  }
+  
+  .buttons button {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .navbttn {
+    font-size: 15px;
+    position: relative;
+    margin: auto;
+    padding: 8px 8px 8px 8px;
+    border: none;
+    background: #fff;
+    transition: all 0.1s linear;
+    box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
+    width: 150px;
+    height: 40px;
+    border-radius: 25%;
+  }
+  
+  .navbttn:active {
+    transform: scale(0.95);
+  }
+  
+  .navbttn:hover {
+    background-color: rgb(37, 226, 37);
+    width: 155px;
+    height: 45px;
+  }
+  
+  nav select {
+    width: 60px;
+    height: 35px;
+    border-radius: 10%;
+  }
+  
+  .container2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    width: 496px;
+    height: 849px;
+    top: 80px;
+    left: 435px;
+    gap: 0px;
+    border-radius: 10%;
+    opacity: 0px;
+  
+    background-color: rgba(252, 246, 246, 0.781);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .container3 {
+    width: 416px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    font-family: "Segoe UI";
+    font-weight: 500;
+  }
+  
+  #title1 p {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    padding-left: 20px;
+    font-family: Georgia;
+  }
+  #title1 p span {
+    color: #fff;
+    background-color: green;
+    border-radius: 10%;
+  }
+  
+  .container2 h1 {
+    text-align: center;
+  }
+  .container3:nth-child(1) {
+    height: 150px;
+  }
+  
+  .container3:nth-child(1) h5 {
+    margin-top: 10px;
+  }
+  
+  .container3:nth-child(1) h5 a {
+    margin-left: 40px;
+  }
+  
+  .container3:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .container3:nth-child(2) input {
+    margin-top: 15px;
+    width: 160px;
+    height: 25px;
+  }
+  
+  .container3:nth-child(2) form {
+    display: flex;
+    gap: 40px;
+    margin-left: 25px;
+    font-weight: 600;
+  }
+  
+  .container3:nth-child(3) label {
+    margin-left: 25px;
+  }
+  
+  .container3:nth-child(3) input {
+    margin-left: 25px;
+    width: 350px;
+    height: 25px;
+    margin-top: 10px;
+  }
+  
+  .container3:nth-child(4) h3 {
+    margin-left: 25px;
+  }
+  
+  .container3:nth-child(4) div {
+    width: 120px;
+    border: solid black 1px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+  }
+  
+  .container3:nth-child(4) form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 30px;
+  }
+  
+  .container3:nth-child(5) h3 {
+    margin-left: 25px;
+  }
+  
+  .container3:nth-child(5) input {
+    width: 380px;
+    height: 25px;
+    margin-left: 25px;
+  }
+  
+  .container3:nth-child(6) input {
+    width: 380px;
+    height: 25px;
+    margin-left: 25px;
+  }
+  
+  .container3:nth-child(6) h3 {
+    margin-left: 25px;
+  }
+  
+  #Continue a {
+    text-decoration: none;
+    font-family: Helvetica;
+    font-size: 25px;
+  }
+  
+  #Continue {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #00d775, #00bd68);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial,
+      sans-serif;
+    height: 44px;
+    line-height: 44px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 380px;
+    margin-left: 58px;
+    z-index: 9;
+    border: 0;
+  }
+  
+  #Continue:hover {
+    background: #00bd68;
+    border: solid 1px black;
+   
+  }
+  
+  #Continue a:hover {
+    font-family: "Segoe UI";
+    font-weight: 700;
+    color: wheat;
+  }
+  
